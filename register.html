@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+   <script src="script.js"></script>
+
+</head>
+<body>
+   <header>
+      <ul>
+         <li><a href="index.html"><b>Some Hospital</b></a></li>
+         <li><a class="active" href="register.html">Register</a></li>
+         <li><a href="login.html">Login</a></li>
+         <li><a href="about.html">About</a></li>
+       </ul>
+   </header><br><br>
+	<div class="container center" >
+		<h1>REGISTER</h1>
+		<form id="registration_form">
+			<div>
+				<input type="text" id="form_fname" name="" required="" placeholder="First Name">
+				<span class="error_form" id="fname_error_message"></span>
+				<!--<label>
+					First Name
+				</label>	-->
+			</div>
+			<div>
+				<input type="text" id="form_sname" name="" required="" placeholder="Last Name">
+				<span class="error_form" id="sname_error_message"></span>
+				<!--<label>
+					Second Name
+				</label>	-->
+			</div>
+         <div>
+            <input type="number" id="form_age" name="" required="" placeholder="Age">
+            <span class="error_form" id="age_error_message"></span>
+         </div>
+         <div>
+            <label for="gender" id="form_gender">Gender:</label>
+            <input type='radio' id="form_gender" name='gender' value='Male' required=""/>Male
+            <input type='radio' id="form_gender" name='gender' value='Female' required=""/>Female
+            <input type='radio' id="form_gender" name='gender' value='Not to Specify' required=""/>Not to Specify
+            <span class="error_form" id="gender_error_message"></span>
+         </div><br>
+         <div>
+            <select name="" id="form_branch" required=""  size="1">
+               <option value=''>Select Branch</option>
+               <option value='Hyderabad'>Hyderabad</option>
+               <option value='Banglore'>Banglore</option> 
+               <option value='Chennai'>Chennai</option>
+            </select>
+         </div>
+         <div>
+            <input type="number" id="form_phone" name="" required="" placeholder="Phone">
+            <span class="error_form" id="phone_error_message"></span>
+         </div>
+			<div>
+				<input type="email" id="form_email" name="" required="" placeholder="Email ID">
+				<span class="error_form" id="email_error_message"></span>
+				<!--<label>Email id</label>	-->
+			</div>
+			<div>
+				<input type="password" id="form_password" name="" required="" placeholder="Password">
+				<span class="error_form" id="password_error_message"></span>
+				<!--<label>Password</label>-->	
+			</div>
+			<div>
+				<input type="password" id="form_retype_password" name="" required="" placeholder="Confirm Password">
+				<span class="error_form" id="retype_password_error_message"></span>
+				<!--<label>Re-Enter Password</label>	-->
+			</div>
+         <br>
+         
+			   <input type="submit" value="Register" name="">
+         
+		</form>
+	</div><br><br>
+   <footer>
+      <p>2021 &#169; Some Hospital</p>
+    </footer>
+
+</body>
+</html>
