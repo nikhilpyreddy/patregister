@@ -1,3 +1,4 @@
 # Form Validation
 
-[Youtube Tutorial](https://www.youtube.com/watch?v=W4-5WM60gWg)
+
+jQuery form validation by [Nikhil](https://github.com/nikhilpyreddy)
